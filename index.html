@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b10">
+  <meta name="description" content="Backstreets Police Department standard operating procedures handbook.">
+  <title>LSPD | SOP Handbook</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="LSPD SOP Handbook home">
+      <span class="seal">PD</span>
+      <span><b>BACKSTREETS POLICE DEPARTMENT</b><small>STANDARD OPERATING PROCEDURES</small></span>
+    </a>
+    <button id="menuButton" class="menu-button" aria-label="Toggle navigation">☰</button>
+    <div class="top-actions">
+      <label class="searchbox"><span>⌕</span><input id="searchInput" type="search" placeholder="Search policies, sections, or keywords..." autocomplete="off"></label>
+      <a class="top-link" href="handbook.md" target="_blank" rel="noopener">Source document ↗</a>
+    </div>
+  </header>
+  <main id="top">
+    <section class="hero"><div class="hero-inner">
+      <div class="eyebrow">DEPARTMENT POLICY LIBRARY</div>
+      <h1>STANDARD OPERATING<br><em>PROCEDURES</em></h1>
+      <p>Official department reference for patrol operations, procedures, standards, and personnel requirements.</p>
+      <div class="hero-meta"><span>BACKSTREETS POLICE DEPARTMENT</span><span class="dot"></span><span>MASTER SOP REFERENCE</span></div>
+    </div><div class="hero-watermark">BPD</div></section>
+    <section class="notice-wrap"><div class="notice"><strong>Command review notice</strong><span>The supplied master reference identifies several conflicting or unclear rules. Those items remain visible for Command clarification; this handbook does not silently choose a replacement rule.</span></div></section>
+    <div class="layout">
+      <aside class="sidebar" id="sidebar"><div class="sidebar-heading">HANDBOOK INDEX</div><div class="sidebar-hint">Select a section to jump to it.</div><nav id="sectionNav" aria-label="SOP sections"><div class="loading">Loading handbook index…</div></nav><div class="sidebar-foot">BACKSTREETS PD<br><span>INTERNAL POLICY REFERENCE</span></div></aside>
+      <section class="content">
+        <div class="content-heading"><div><div class="eyebrow">POLICY & PROCEDURE</div><h2>Department Handbook</h2></div><div class="count" id="sectionCount">Loading sections…</div></div>
+        <div id="searchStatus" class="search-status" aria-live="polite"></div>
+        <div id="handbookContent" class="handbook-content"><div class="loading-panel">Loading the SOP handbook…</div></div>
+        <div id="noResults" class="no-results" hidden>No matching SOP sections found. Try a different keyword.</div>
+        <footer class="page-footer">BACKSTREETS POLICE DEPARTMENT · SOP HANDBOOK<br><span>Use the source document and Command announcements to confirm current policy when a discrepancy is flagged.</span></footer>
+      </section>
+    </div>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
