@@ -1,84 +1,9 @@
-const content = document.getElementById("handbookContent");
-const nav = document.getElementById("sectionNav");
-const searchInput = document.getElementById("searchInput");
-const sectionCount = document.getElementById("sectionCount");
-const searchStatus = document.getElementById("searchStatus");
-const noResults = document.getElementById("noResults");
-
-function inline(text) {
-  return text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
-    .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>").replace(/`(.+?)`/g, "<code>$1</code>");
-}
-function slug(text) { return text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""); }
-function renderMarkdown(md) {
-  const lines = md.replace(/\r/g, "").split("\n");
-  let html = "", inList = false, listType = "", inTable = false, sectionIndex = 0;
-  const closeList = () => { if (inList) { html += `</${listType}>`; inList = false; listType = ""; } };
-  const closeTable = () => { if (inTable) { html += "</tbody></table>"; inTable = false; } };
-  const closeBlocks = () => { closeList(); closeTable(); };
-  for (let i = 0; i < lines.length; i++) {
-    const line = lines[i];
-    if (!line.trim()) { closeBlocks(); continue; }
-    if (/^# /.test(line)) {
-      closeBlocks();
-      const title = line.replace(/^# /, "").trim();
-      if (sectionIndex > 0) html += "</div></article>";
-      sectionIndex++;
-      const id = slug(title) || `section-${sectionIndex}`;
-      html += `<article class="sop-section" id="${id}" data-section="${inline(title)}"><h2>${inline(title)}</h2><div class="section-body">`;
-      continue;
-    }
-    if (/^## /.test(line) || /^### /.test(line)) { closeBlocks(); html += `<h3>${inline(line.replace(/^#{2,3} /, ""))}</h3>`; continue; }
-    if (/^\|/.test(line)) {
-      closeList();
-      const cells = line.trim().replace(/^\|/, "").replace(/\|$/, "").split("|").map(c => c.trim());
-      if (/^[\s:|-]+$/.test(line.replace(/[|]/g, ""))) continue;
-      if (!inTable) { inTable = true; html += "<table><thead><tr>" + cells.map(c => `<th>${inline(c)}</th>`).join("") + "</tr></thead><tbody>"; }
-      else html += "<tr>" + cells.map(c => `<td>${inline(c)}</td>`).join("") + "</tr>";
-      continue;
-    } else closeTable();
-    const ul = /^\s*[-*]\s+/.test(line), ol = /^\s*\d+\.\s+/.test(line);
-    if (ul || ol) {
-      const wanted = ul ? "ul" : "ol";
-      if (!inList || listType !== wanted) { closeList(); inList = true; listType = wanted; html += `<${wanted}>`; }
-      html += `<li>${inline(line.replace(/^\s*(?:[-*]|\d+\.)\s+/, ""))}</li>`; continue;
-    }
-    closeList();
-    if (/^---+$/.test(line.trim())) { html += "<hr>"; continue; }
-    if (/^>/.test(line)) { html += `<blockquote>${inline(line.replace(/^>\s?/, ""))}</blockquote>`; continue; }
-    html += `<p>${inline(line.trim())}</p>`;
-  }
-  closeBlocks(); if (sectionIndex > 0) html += "</div></article>"; return html;
-}
-fetch("handbook.md").then(r => { if (!r.ok) throw new Error("Could not load handbook.md"); return r.text(); }).then(md => {
-  content.innerHTML = renderMarkdown(md);
-  const sections = [...content.querySelectorAll(".sop-section")];
-  nav.innerHTML = sections.map(section => `<a href="#${section.id}" data-target="${section.id}">${section.querySelector("h2").textContent}</a>`).join("");
-  sectionCount.textContent = `${sections.length} handbook sections`;
-  if (!sections.length) content.innerHTML = "<p>Handbook content could not be organized. Check handbook.md formatting.</p>";
-  const links = [...nav.querySelectorAll("a")];
-  const observer = new IntersectionObserver(entries => entries.forEach(entry => {
-    if (entry.isIntersecting) links.forEach(a => a.classList.toggle("active", a.dataset.target === entry.target.id));
-  }), { rootMargin: "-18% 0px -72% 0px" });
-  sections.forEach(s => observer.observe(s));
-  searchInput.addEventListener("input", applySearch); applySearch();
-}).catch(err => {
-  content.innerHTML = '<div class="loading-panel">The handbook could not be loaded. Make sure <b>handbook.md</b> is in the same folder as index.html.</div>';
-  nav.innerHTML = '<div class="loading">Handbook index unavailable.</div>'; console.error(err);
-});
-function applySearch() {
-  const query = searchInput.value.trim().toLowerCase(), sections = [...content.querySelectorAll(".sop-section")]; let shown = 0;
-  sections.forEach(section => {
-    const match = !query || section.textContent.toLowerCase().includes(query);
-    section.classList.toggle("search-hidden", !match);
-    const link = nav.querySelector(`[data-target="${section.id}"]`);
-    if (link) link.classList.toggle("search-hidden", !match);
-    if (match) shown++;
-  });
-  noResults.hidden = shown !== 0;
-  searchStatus.textContent = query ? `Showing ${shown} of ${sections.length} sections matching “${searchInput.value.trim()}”.` : "";
-}
-document.getElementById("menuButton").addEventListener("click", () => {
-  document.getElementById("sidebar").classList.toggle("menu-open");
-  document.querySelector(".top-actions").classList.toggle("open");
-});
+const content=document.getElementById("handbookContent"),searchInput=document.getElementById("searchInput"),sectionCount=document.getElementById("sectionCount"),searchStatus=document.getElementById("searchStatus"),noResults=document.getElementById("noResults"),tabs=document.getElementById("sopTabs");
+function inline(t){return t.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>").replace(/`(.+?)`/g,"<code>$1</code>")}
+function slug(t){return t.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")}
+function renderMarkdown(md){const lines=md.replace(/\r/g,"").split("\n");let html="",inList=false,listType="",inTable=false,n=0;const cl=()=>{if(inList){html+="</"+listType+">";inList=false;listType=""}},ct=()=>{if(inTable){html+="</tbody></table>";inTable=false}},cb=()=>{cl();ct()};for(const line of lines){if(!line.trim()){cb();continue}if(/^# /.test(line)){cb();const title=line.replace(/^# /,"").trim();if(n++)html+="</div></article>";const id=slug(title)||"section-"+n;html+='<article class="sop-section" id="'+id+'" data-section="'+inline(title)+'"><h2>'+inline(title)+'</h2><div class="section-body">';continue}if(/^## /.test(line)||/^### /.test(line)){cb();html+="<h3>"+inline(line.replace(/^#{2,3} /,""))+"</h3>";continue}if(/^\|/.test(line)){cl();const cells=line.trim().replace(/^\|/,"").replace(/\|$/,"").split("|").map(c=>c.trim());if(/^[\s:|-]+$/.test(line.replace(/[|]/g,"")))continue;if(!inTable){inTable=true;html+="<table><thead><tr>"+cells.map(c=>"<th>"+inline(c)+"</th>").join("")+"</tr></thead><tbody>"}else html+="<tr>"+cells.map(c=>"<td>"+inline(c)+"</td>").join("")+"</tr>";continue}else ct();const ul=/^\s*[-*]\s+/.test(line),ol=/^\s*\d+\.\s+/.test(line);if(ul||ol){const w=ul?"ul":"ol";if(!inList||listType!==w){cl();inList=true;listType=w;html+="<"+w+">"}html+="<li>"+inline(line.replace(/^\s*(?:[-*]|\d+\.)\s+/,""))+"</li>";continue}cl();if(/^---+$/.test(line.trim())){html+="<hr>";continue}if(/^>/.test(line)){html+="<blockquote>"+inline(line.replace(/^>\s?/,""))+"</blockquote>";continue}html+="<p>"+inline(line.trim())+"</p>"}cb();if(n)html+="</div></article>";return html}
+const groups=[{id:"department",label:"Department SOPs",test:t=>!/^(26\. H\.E\.A\.T\.|27\. Air Support|28\. K-9|29\. Detective|30\. Motorcycle|31\. General Division)/i.test(t)},{id:"heat",label:"H.E.A.T.",test:t=>/^26\. H\.E\.A\.T\./i.test(t)},{id:"air",label:"Air Support",test:t=>/^27\. Air Support/i.test(t)},{id:"k9",label:"K-9",test:t=>/^28\. K-9/i.test(t)},{id:"detectives",label:"Detectives",test:t=>/^29\. Detective/i.test(t)},{id:"mcu",label:"M.C.U.",test:t=>/^30\. Motorcycle/i.test(t)},{id:"general",label:"General Division Policy",test:t=>/^31\. General Division/i.test(t)}];let active="department",panels=new Map();
+fetch("handbook.md").then(r=>{if(!r.ok)throw Error("Could not load handbook.md");return r.text()}).then(md=>{content.innerHTML=renderMarkdown(md);const sections=[...content.querySelectorAll(".sop-section")],buckets=new Map(groups.map(g=>[g.id,[]]));sections.forEach(s=>{const title=s.querySelector("h2").textContent,g=groups.find(x=>x.test(title))||groups[0];buckets.get(g.id).push(s)});tabs.innerHTML=groups.map(g=>'<button class="sop-tab" type="button" role="tab" id="tab-'+g.id+'" aria-controls="panel-'+g.id+'" aria-selected="false" data-tab="'+g.id+'">'+g.label+'<span>'+buckets.get(g.id).length+'</span></button>').join("");groups.forEach(g=>{const p=document.createElement("div");p.className="tab-panel";p.id="panel-"+g.id;p.setAttribute("role","tabpanel");p.setAttribute("aria-labelledby","tab-"+g.id);buckets.get(g.id).forEach(s=>p.appendChild(s));content.appendChild(p);panels.set(g.id,p)});sectionCount.textContent=sections.length+" handbook sections";tabs.addEventListener("click",e=>{const b=e.target.closest("[data-tab]");if(b)activate(b.dataset.tab)});searchInput.addEventListener("input",applySearch);activate(active)}).catch(e=>{content.innerHTML='<div class="loading-panel">The handbook could not be loaded. Check handbook.md.</div>';tabs.innerHTML='<div class="loading">Division tabs unavailable.</div>';console.error(e)});
+function activate(id){active=id;groups.forEach(g=>{const b=tabs.querySelector('[data-tab="'+g.id+'"]'),p=panels.get(g.id),on=g.id===id;b.setAttribute("aria-selected",String(on));b.tabIndex=on?0:-1;p.hidden=!on});applySearch()}
+function applySearch(){const q=searchInput.value.trim().toLowerCase();let shown=0,total=0;groups.forEach(g=>{const p=panels.get(g.id);if(!p)return;const ss=[...p.querySelectorAll(".sop-section")];let matches=0;ss.forEach(s=>{const ok=!q||s.textContent.toLowerCase().includes(q);s.classList.toggle("search-hidden",!ok);if(ok){matches++;total++}});const b=tabs.querySelector('[data-tab="'+g.id+'"]');b.querySelector("span").textContent=q?matches:ss.length;b.classList.toggle("tab-no-match",!!q&&!matches);if(g.id===active)shown=matches});noResults.hidden=shown!==0;searchStatus.textContent=q?"Showing "+shown+" matching sections in this tab; "+total+" matches across all tabs.":""}
+document.getElementById("menuButton").addEventListener("click",()=>document.querySelector(".top-actions").classList.toggle("open"));
