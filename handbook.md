@@ -974,3 +974,621 @@ Pasted text(5).txt
 One final note: The May 14 and May 24 announcements contain images rather than readable text in the supplied change log. Their contents aren't included here, so those two updates still need to be checked against the original Discord announcements.
 
 This is the consolidated master reference from both supplied documents, rather than a guarantee that every rule is free of contradictions.
+
+
+# 26. H.E.A.T. Division – Highway Enforcement of Aggressive Traffic
+
+## Mission Statement
+
+The H.E.A.T. Division is responsible for professional vehicle pursuit operations, traffic enforcement, and the safe apprehension of fleeing suspects.
+
+## Entry Requirements
+
+- Must hold the rank of Senior Officer or above.
+- Must have held Senior Officer rank for at least one week.
+
+## Division Structure
+
+### H.E.A.T. Operator
+
+- Completed full H.E.A.T. training.
+- Demonstrates expected pursuit and vehicle knowledge.
+- Vehicle: Marked Charger with ram bar.
+
+### H.E.A.T. Senior Operator
+
+- Outstanding performance and professionalism.
+- Subject to performance monitoring and IA review.
+- Vehicles: Unmarked Charger or Raptor with ram bar.
+
+### H.E.A.T. Supervisor
+
+- Oversees operators and conducts training.
+- Responsible for supervision and performance.
+- Vehicles: Unmarked Charger, Raptor, or Escalade with ram bar.
+
+### H.E.A.T. Command
+
+- Oversees daily operations and training systems.
+- Authorized to modify division protocols.
+- Vehicle: All authorized division vehicles.
+
+## Authorized Modifications
+
+- Tuner chip.
+
+## Training Process
+
+### Part 1 – Prior Knowledge Test
+
+- PIT requirements.
+- Vehicle knowledge.
+- 10-80 knowledge.
+- Utility knowledge.
+
+### Part 2 – Trainee Demonstration
+
+- Successful callouts.
+- Demonstration of pursuit knowledge.
+- Proper use of authorized equipment.
+
+### Part 3 – Pursuit Drill
+
+- Demonstrate professional pursuit judgment.
+- Trainer plays the suspect.
+- Evaluation of communication, safety, and coordination.
+
+### Part 4 – Knowledge Recap
+
+- What does H.E.A.T. stand for?
+- When is a PIT authorized?
+- What restrictions apply to PIT maneuvers?
+- Who can authorize a PIT maneuver?
+
+## Tactical Definitions
+
+**PIT Maneuver:** A Pursuit Intervention Technique used in roleplay to stop a fleeing vehicle. All use must follow division authorization requirements and server rules.
+
+**Spiking:** Deployment of a tire-deflation device in approved roleplay situations.
+
+**Roadblocks:** Police traffic-control blockades used for approved operational and event purposes.
+
+## Tactical Deployment Protocols
+
+- H.E.A.T. units receive primary pursuit responsibility when assigned.
+- The initiating officer normally transitions to secondary.
+- Supervisors retain authority over pursuit management.
+- Units must maintain professional radio communication.
+- Tactical decisions must follow server policies and supervisory authorization.
+
+## Supervisor Oversight
+
+H.E.A.T. Supervisors and Command are responsible for:
+
+- Monitoring pursuits.
+- Calling off pursuits when necessary.
+- Approving authorized tactics.
+- Reassigning or removing units when necessary.
+
+## Advancement to Senior Operator
+
+- Must be an active H.E.A.T. Operator for at least two weeks.
+- Must demonstrate exceptional performance and professionalism.
+- Must be selected by Command for the Senior Operator evaluation.
+
+## Evaluation Criteria
+
+- Safety.
+- Communication.
+- Judgment.
+- Professionalism.
+- Roleplay quality.
+- Leadership and decision-making.
+
+# 27. Air Support Division
+
+## Mission Statement
+
+The Los Santos Police Air Support Division provides aerial assistance to ground units, supports officer and civilian safety, and conducts aerial observation, surveillance, and recovery operations.
+
+## Area of Operation
+
+Air Support operates throughout Los Santos, Sandy Shores, and Paleto Bay.
+
+Operators must demonstrate proficiency in operating aircraft across different environments.
+
+## Training Structure
+
+Operators must complete five training phases.
+
+### Phase 1 – Basic Flight Operations
+
+- Basic flight controls.
+- Takeoffs.
+- Landings.
+- Land navigation.
+- Responding to calls efficiently.
+
+Training is conducted alongside a certified Flight Instructor.
+
+### Phase 2 – Camera Operation
+
+Operators must understand the three camera systems aboard Air-1.
+
+**Surveillance Camera**
+
+- Vehicle plate identification.
+- Vehicle make and model identification.
+- Identifying points of interest.
+- Relaying information to ground units.
+
+**Night Vision**
+
+- Used during nighttime and low-light operations.
+- Supports aerial observation and tracking.
+
+**Thermal Vision**
+
+- Infrared observation.
+- Assists in locating individuals in covered outdoor environments.
+- Operators must understand its limitations.
+
+### Phase 3 – Vehicle Chases
+
+- Respond to traffic stops.
+- Assist ground units with vehicle identification.
+- Maintain aerial observation.
+- Relay relevant information to ground units.
+- Follow Air Support visibility and tracking policies.
+
+If visual contact is lost for more than 10 seconds, the operator must follow the established visual-search procedure.
+
+### Phase 4 – Rescue and Recovery Missions
+
+- Coordinate with relevant agencies.
+- Locate missing individuals.
+- Assist with recovery missions.
+- Demonstrate knowledge of aircraft rescue equipment.
+
+### Phase 5 – Final Evaluation
+
+- Demonstrate overall flight proficiency.
+- Demonstrate camera knowledge.
+- Demonstrate communication skills.
+- Demonstrate rescue and recovery knowledge.
+
+# 28. K-9 Division
+
+## 1. Responsibilities
+
+- Provide canine support to patrol, investigations, and special operations.
+- Maintain professionalism and follow server rules.
+- Ensure public and officer safety during deployments.
+
+## 2. Organizational Structure
+
+- K-9 Division Director – Overall leadership and policy approval.
+- K-9 Assistant Director – Assists the Director and oversees training.
+- K-9 Supervisor – Manages handlers and deployments.
+- K-9 Senior Handler – Experienced handler who mentors others.
+- K-9 Handler – Certified officer assigned to an approved K-9.
+
+## 3. On-Duty and Off-Duty Units
+
+- K-9 callsigns may only be used while on duty with an approved dog.
+- Off-duty handlers must return to standard patrol.
+- Major scene deployments require supervisory approval.
+
+## 4. Vehicles and Uniforms
+
+- Only approved K-9 vehicles may be used.
+- One additional officer may ride in the front passenger seat.
+- Uniforms must follow department guidelines.
+- K-9s must remain in designated vehicle areas.
+
+## 5. K-9 Acquisition
+
+- Handlers may request a K-9 through the Director or Assistant Director.
+- Dogs must reach Level 5 before deployment.
+
+## 6. Training
+
+- Supervisor certification is required before patrol.
+- Ongoing obedience, tracking, and search training is encouraged.
+- Scenario refreshers are recommended every 30 days.
+
+## 7. K-9 Health and Maintenance
+
+- Feed and water the K-9 through RP.
+- Use `/k9heal` for medical RP.
+- Use `/k9armor` when appropriate.
+- Ensure the dog receives adequate rest.
+
+## 8. Commands
+
+| Command | Description |
+| --- | --- |
+| `/k9` | Opens main menu |
+| `/k9spawn` | Spawns assigned K-9 |
+| `/k9vehicle` | Loads/unloads K-9 |
+| `/k9follow` | Dog follows handler |
+| `/k9trackall` | Tracks available scent |
+| `/k9trackplayer` | Tracks specific player |
+| `/k9searchcar` | Searches vehicle |
+| `/k9searchped` | Searches pedestrian |
+| `/k9heal` | Heals K-9 (RP) |
+| `/k9armor` | Gives vest/armor |
+| `/k9feed` | Feeds dog |
+| `/k9fetch` | Plays fetch |
+| `/k9ball` | Plays fetch |
+| `/k9bark` | Commands dog to bark |
+| `/k9sit` | Commands dog to sit |
+| `/k9carry` | Picks up/carries dog |
+| `/k9camera` | Views dog-mounted camera |
+| `/k9mount` | Mounts camera |
+
+Camera use must be restricted to legitimate RP scenarios. OOC scouting is prohibited.
+
+## 9. Radio Procedures
+
+- K-9 units identify themselves as K-9 on radio.
+- Example: K-9-12.
+- Notify dispatch when deploying, tracking, or operating with a K-9.
+
+## 10. Loading and Unloading
+
+- K-9 must be spawned at the station before patrol.
+- Use the appropriate commands to load and unload.
+- Maintain traffic safety when opening vehicle doors.
+
+## 11. Suspect Transport
+
+- K-9 units cannot transport suspects.
+- Request another patrol unit for transport.
+- Keep the dog secured until transport arrives.
+
+## 12. K-9 Bite Response
+
+- Give a verbal warning before deployment unless an immediate lethal threat exists.
+- Provide appropriate RP first aid following a bite.
+- Notify the K-9 Supervisor.
+- Handlers remain accountable for their dog's actions.
+
+## 13. 10-11 Traffic Stops
+
+- Deploy only when a threat is detected or a sniff is requested.
+- Keep the dog secured unless deployment is necessary.
+
+## 14. Unarmed Suspects
+
+- K-9s cannot be used against compliant or surrendering subjects.
+- Deployment is restricted to situations permitted by division policy.
+
+## 15. 10-70s and 10-80s
+
+- K-9s may assist with foot or bicycle pursuits and vehicle bailouts when appropriate.
+- Announce deployments over radio.
+
+## 16. Civilian Interaction
+
+- Civilian interaction requires handler approval.
+- Keep the leash on.
+- Avoid aggressive RP with civilians.
+
+## 17. K-9 Searches
+
+- Request consent or warrant RP when appropriate.
+- Searches may involve vehicles, people, and property.
+- Common deployments include burglary, vehicle theft, narcotics, weapons, and wanted-person investigations.
+
+## 18. Tracking Abilities
+
+- Use `/k9trackplayer` or `/k9trackall`.
+- Maintain radio communication.
+- Stop tracking when the scene becomes unsafe.
+
+# 29. Detective Division
+
+## Mission Statement
+
+The Detective Division consists of criminal investigators who gather evidence, conduct interviews, examine records, observe suspects, and participate in investigations, warrants, raids, and arrests alongside local, state, judicial, and federal agencies.
+
+## Entry Requirements
+
+- Must hold Senior Officer rank or above.
+- Above-average RP rating.
+- Willingness to conduct extended roleplay.
+- Must complete all Rookie Evaluation phases within two weeks of acceptance.
+
+## Division Structure
+
+### Unit Chief / Unit Lead
+
+- Oversees all detectives.
+- Establishes policies and procedures.
+- Maintains division standards.
+- Supervises applications and onboarding.
+
+### Detective First Grade
+
+- Ensures compliance with division policies.
+- Trains new detectives.
+- Coordinates with other agencies.
+
+### Detective / Senior Detective
+
+- Handles investigations.
+- Gathers evidence.
+- Writes reports.
+- Participates in warrants and operations.
+
+### Detective Trainee (DT)
+
+- Works under an assigned Detective.
+- Participates in ride-alongs.
+- Evaluated on investigative and RP performance.
+- Cannot drive Detective vehicles or operate independently without authorization.
+
+## Crime Scene Investigation (CSI)
+
+CSI operates under the Detective Division and handles crime scene documentation and forensic evidence.
+
+### CSI Duties
+
+- Secure crime scenes.
+- Photograph and document scenes.
+- Collect physical evidence.
+- Maintain chain of custody.
+- Prepare forensic reports.
+- Coordinate with EMS when applicable.
+- Digitally recreate scenes when available.
+
+### Requirements
+
+- Must be a Full Detective.
+- Must demonstrate attention to detail, patience, and professionalism.
+
+Detectives must complete a CSI assignment before joining another Detective specialization.
+
+## Vehicle Guidelines
+
+**Detective First Grade**
+
+- Any unmarked vehicle.
+- Interior lights must be visible.
+- Either approved UC vehicle.
+
+**Senior Detective**
+
+- Slicktop with doortag.
+- All-black or grey.
+- Interior lights must be visible.
+
+**Detective**
+
+- Slicktop with livery and doortag.
+- All-black or grey.
+
+**Allowed Vehicles**
+
+- Any fleet vehicle or F9 vehicle that follows division guidelines.
+
+**Detective Trainee**
+
+- Cannot use Detective Division vehicles.
+- Must ride with a Full Detective or higher.
+- Cannot go active without a Full Detective on duty.
+
+## Uniform Guidelines
+
+### Full Detectives – Professional Attire
+
+- Professional EUP clothing.
+- Visible badge.
+- Button-up or polo in professional colors.
+- Optional suit jacket or tie.
+- Slacks or matching khakis.
+- Dress shoes or black duty shoes.
+
+### Plain Clothes
+
+- May be used for intelligence gathering, surveillance, or blending in.
+- Jeans or similar pants must not be baggy or sagging.
+- T-shirts and sweatshirts are permitted.
+- Hats and casual shoes are permitted.
+- Badges must be removable.
+
+Detectives must not patrol in plain clothes unless responding to a case.
+
+### Prohibited Items
+
+- Jewelry other than a wristwatch.
+- Unprofessional haircuts or wild colors.
+- Visible gang-related tattoos.
+- Messy facial hair.
+- Face coverings.
+
+### Detective Trainees
+
+- Not authorized to use EUP.
+- Must use standard on-duty loadouts and uniforms.
+
+## Weapons and Equipment Guidelines
+
+### Standard Loadout
+
+- 1 Camera.
+- 1 Evidence Pouch.
+- 1 Flashlight.
+- 1 Taser.
+- 1 Combat Pistol.
+- 1 AR.
+- 1 SMG.
+
+Reminder: Lock your vehicles at all times.
+
+## Daily Operations
+
+Detectives handle:
+
+- LEO-requested crime scene investigations.
+- Criminal intelligence gathering.
+- Reports and known-offender research.
+- Sting and raid planning.
+- Support for Q.R.T.
+- Inter-agency undercover assignments.
+
+All raid and sting operations require coordination and permission from the Unit Lead or higher.
+
+## Specializations and Certifications
+
+### Crime Scene Investigation (CSI)
+
+- Requires specialized training.
+- Approval from Detective First Grade or higher.
+- First certification available to detectives.
+- Handles evidence collection and forensic reports.
+
+### Aerial Surveillance Team (AST)
+
+- Requires specialized training.
+- Approval from Detective First Grade or higher.
+- Provides aerial observation and surveillance support.
+
+### Gang and Narcotics Team (GNT)
+
+- Requires specialized training.
+- Approval from Unit Leader or higher.
+- Handles gang and narcotics investigations.
+- Conducts intelligence gathering and coordinates with other units.
+
+### Homicide and Robbery Team (HRT)
+
+- Requires specialized training.
+- Approval from Unit Leader or higher.
+- Handles homicide and robbery investigations.
+- Conducts interviews and evidence collection.
+
+## Application and Training Process
+
+- Submit an application to the Detective Division.
+- Selected applicants undergo evaluation.
+
+### Evaluation Criteria
+
+- RP intentions and professionalism.
+- Conduct and communication with superiors.
+- Case handling and time management.
+- Average case length of 1–4+ hours.
+- Depth of roleplay.
+- Completion of training.
+
+Successful completion determines advancement to Full Detective.
+
+**Policy Reminder:** Policies and procedures may change. Detectives should regularly check updates from their chain of command.
+
+# 30. Motorcycle Unit (M.C.U.)
+
+## Purpose
+
+These SOPs establish guidelines for the safe and effective operation of the Motorcycle Unit.
+
+The MCU is responsible for:
+
+- Traffic enforcement.
+- Crowd control.
+- Emergency calls.
+- Escort duties.
+- Special events.
+- Evidence and prison transports.
+- Backup assistance.
+
+## 1. Uniform and General Appearance
+
+- Appropriate MCU uniform is required when operating a police-issued motorcycle.
+- This includes emergency import motorcycles.
+- Jewelry is prohibited while operating a motorcycle.
+- Uniform requests should be directed to Solo KJS or John Johnson.
+
+## 2. Motorcycle Pre-Operation Checklist
+
+Before starting patrol:
+
+- Ensure the motorcycle has the appropriate livery.
+- Enable all required extras.
+- Fully repair and refuel the motorcycle.
+- Set up radars and plate readers before leaving the MRPD garage.
+
+## 3. General Traffic Conduct
+
+- Follow all traffic laws.
+- No wheelies, stoppies, or dangerous tricks.
+- City speed limit: 80 MPH.
+- Highway/freeway speed limit: 120 MPH.
+- Wait the required three seconds at red lights.
+- Lane-splitting is permitted when necessary and with extreme caution.
+
+## 4. Escort Duties
+
+- MCU operators must assist with escort duties when needed.
+- Report suspicious or unusual activity ahead.
+- Minimum of two MCU operators.
+- Maximum of four MCU operators.
+- Follow the approved escort formation.
+
+## 5. Crowd Control
+
+MCU operators may assist with:
+
+- Parades.
+- Crime scene perimeters.
+- Clearing loitering individuals from government buildings.
+
+All crowd-control activities must follow department use-of-force SOPs.
+
+## 6. Backup Calls
+
+- Unless the MCU operator is the first or second unit on scene, their main responsibility is perimeter establishment.
+- During a 10-99, respond according to normal emergency procedures.
+
+## 7. Numbers and T-Count
+
+Only one MCU operator is permitted per scene, including 10-80 and 10-19 situations.
+
+Exceptions:
+
+- Escort duties.
+- 10-99 situations.
+
+### Required Four-Door Units Per MCU Operator
+
+| Four-Door Units on Patrol | MCU Operators Allowed |
+| --- | --- |
+| 0–1 | 0 |
+| 2–3 | 1 |
+| 4–5 | 2 |
+| 6–7 | 3 |
+| Additional units | One additional MCU per two additional four-door units |
+
+During a 10-80, MCU operators must remain at the rear of the pursuit unless the target is another motorcycle.
+
+An MCU operator may temporarily take over if the primary unit crashes or loses visual contact, until the primary unit can resume responsibility.
+
+## 8. 10-80 and Arrest Procedures
+
+- Follow department pursuit procedures.
+- Request a four-door unit for suspect transport after an arrest.
+- MCU operators remain the arresting officers.
+- Complete the required arrest report as usual.
+
+# 31. General Division Policy
+
+All divisions are expected to:
+
+- Follow LSPD department-wide SOPs.
+- Maintain professional conduct.
+- Follow their division's chain of command.
+- Maintain proper radio communication.
+- Follow server rules and roleplay standards.
+- Cooperate with Internal Affairs when required.
+- Keep division policies and training requirements updated.
