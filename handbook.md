@@ -1592,3 +1592,238 @@ All divisions are expected to:
 - Follow server rules and roleplay standards.
 - Cooperate with Internal Affairs when required.
 - Keep division policies and training requirements updated.
+
+
+# 32. Internal Affairs Division
+
+**Backstreets Police Department – Internal Affairs Division**  
+**Standard Operating Procedures**  
+**Restricted:** Internal Affairs Oversight and Commander of Internal Affairs only
+
+## Mission
+
+The Internal Affairs Division (IA) protects the integrity of the Backstreets Police Department by investigating complaints of misconduct, SOP violations and PD corruption by department personnel. IA exists to keep the department accountable to the public, to protect officers from false accusations, and to make sure discipline is applied fairly and consistently under the Strikes & Sanction Guide.
+
+These SOPs work alongside the Backstreets Police Department SOPs. They do not replace them, and neither is above the Backstreets City bible.
+
+## 1. Scope and Authority
+
+### 1.1 What IA Investigates
+
+- Complaints from civilians, lawyers, the DOJ or other agencies about LSPD personnel.
+- SOP violations listed in the Strikes & Sanction Guide (Class 1, Class 2 and Class 3 conducts).
+- PD corruption, including abuse of position, bribery, mishandling or "losing" evidence, unlogged gun buybacks, and breaching a house without a signed search warrant.
+- Unlawful use of force, power cuffing, taser abuse and hard cuff abuse.
+- Off-duty conduct that reflects on the department (SOP 1.4).
+- Officer-involved shootings and any scene where an officer's actions are formally questioned.
+- Conflicts with other agencies, including FIB, documented under SOP 21.3.
+
+### 1.2 What IA Does Not Handle
+
+- Out-of-character (OOC) and city rule breaks such as failed RP, NVL or metagaming. These go to a Government/staff ticket, as stated in the LSPD SOPs.
+- Routine supervisor discipline such as verbal warnings or small corrections in the field. Supervisors handle these, and IA only steps in if the matter is escalated or repeated.
+- Criminal cases against civilians. These belong to patrol, Detectives and the DOJ.
+
+### 1.3 Authority
+
+IA investigators may request bodycam footage, MDT reports, logs and statements from any LSPD member. Every officer is required to cooperate with an IA investigation. Refusing to cooperate, lying to IA, or deleting or withholding evidence is a separate violation and will be treated as Insubordination or PD corruption depending on severity.
+
+IA investigates and recommends. Discipline is issued through the chain of command, and removal-level outcomes require High Command review.
+
+## 2. Structure and Chain of Command
+
+| Position | Discord Role | Responsibilities |
+|---|---|---|
+| Commander of Internal Affairs | Commander Of Internal Affairs | Runs the division. Assigns cases, approves findings, signs off on every closed case, and reports to High Command and the Commissioner. |
+| IA Investigator | Internal Affairs Oversight | Opens and works assigned cases, collects evidence, takes statements and writes the case file and recommended finding. |
+| High Command | LSPD \| High Command | Reviews and votes on demotions, terminations and removal-level findings. Hears appeals. |
+| Commissioner | UD \| COMMISSIONER | Handles IA cases involving Chiefs or the Commander of Internal Affairs. |
+
+### 2.1 Joining Internal Affairs
+
+- Must be Supervisor rank (Corporal) or higher.
+- Must have zero active strikes and no sustained IA finding in the last 30 days.
+- Must be approved by the Commander of Internal Affairs.
+- Must read and acknowledge these SOPs before being given the Internal Affairs Oversight role.
+
+## 3. Code of Conduct for IA Personnel
+
+### 3.1 Confidentiality
+
+- Case details are discussed only in the Internal Affairs channels or IA voice. Never in general, command or HC channels, DMs to the subject, or in-city over radio.
+- Complainant identities are protected. The subject officer is told what the allegation is, not who reported it, unless the complainant agrees.
+- Leaking case information is grounds for immediate removal from IA and will be handled as Conduct Unbecoming of an Officer.
+
+### 3.2 Conflict of Interest
+
+An investigator must step off a case and tell the Commander of IA if they:
+
+- Were involved in the incident or witnessed it.
+- Are in the subject officer's direct chain of command, division, or close friend group.
+- Have an open complaint or prior conflict with the subject officer or complainant.
+
+Cases involving IA members are handled by the Commander of IA. Cases involving the Commander of IA or a Chief go to the Commissioner.
+
+### 3.3 Professionalism
+
+IA investigates facts, not people. Investigators must stay neutral, avoid assuming guilt, and treat subject officers, complainants and witnesses with respect. IA is not a punishment tool, and opening a case to target or harass an officer is itself misconduct.
+
+## 4. Receiving Complaints
+
+### 4.1 Complaint Sources
+
+- Officer Complaints ticket in the LSPD Discord (civilians, lawyers or officers).
+- Detective tipline reports that involve LSPD personnel.
+- Command referral: a supervisor or High Command member refers a matter to IA.
+- DOJ referral: a judge, prosecutor or lawyer raises officer misconduct during a case.
+- IA-initiated: IA may open a case on its own when there is clear evidence of misconduct, such as bodycam, MDT records or logs.
+
+### 4.2 Minimum Information for a Complaint
+
+- Officer name or callsign (or a description if unknown).
+- Date, time and location of the incident.
+- What happened.
+- Any evidence: clips, screenshots, MDT report numbers.
+
+Complaints with no evidence are still logged, but they may be closed as Not Sustained if no evidence can be found.
+
+### 4.3 Intake Steps
+
+1. Acknowledge the complaint within 24 hours and tell the complainant it is under review.
+2. The Commander of IA reviews it and either opens a case, refers it to the officer's supervisor (minor matter), or declines it (OOC matter or no allegation of misconduct).
+3. If opened, assign a case number and a lead investigator.
+
+## 5. Opening a Case
+
+### 5.1 Case Numbers
+
+Every case is numbered IA-YEAR-###, in order, starting at 001 each year (for example, IA-2026-001).
+
+### 5.2 Case File Location
+
+- Every case gets its own thread in #ia-sealed-files, named "IA-2026-### | Callsign".
+- Use the pinned IA Case File Template in #ia-sealed-files. Fill in both parts.
+- All evidence, notes and statements for the case are posted in that thread only.
+
+### 5.3 Notifying the Subject Officer
+
+The subject officer is notified within 48 hours of the case opening, unless notifying them would put evidence at risk (for example, an active corruption case). Notification includes the case number, the allegation, and when they will be asked for a statement.
+
+## 6. Investigation Procedure
+
+### 6.1 Evidence Collection
+
+- Bodycam: request footage from every officer on scene. Under LSPD SOP 2.2, bodycam must not be deleted within 24 hours of recording, so request it as early as possible.
+- MDT: pull reports, incident numbers, charges, fines and notes.
+- Discord logs: weapon confiscation, gun buyback, clock-in, LOA and strike logs.
+- Evidence stash records for any case involving seized items or weapons.
+- Radio and dispatch records where available.
+
+Every piece of evidence is logged in the case file's Evidence Log with a link and a short description.
+
+### 6.2 Missing Bodycam
+
+An officer who was required to have a bodycam (SOP 2.2) but cannot provide footage of the incident may face a separate SOP violation. A missing clip cannot be used as proof that the officer is innocent.
+
+### 6.3 Statements and Interviews
+
+1. Take the complainant's statement first, then witnesses, then the subject officer.
+2. Interviews are held in IA voice or in-city at HQ, with at least one IA member present. Record them if possible.
+3. The subject officer may bring one LSPD member of Supervisor rank or higher as a representative. The representative may advise but may not answer for the officer.
+4. Questions must be about the allegation. No unrelated fishing.
+5. Write a summary of each statement in the case file, with the date taken.
+
+### 6.4 Timelines
+
+| Step | Deadline |
+|---|---|
+| Acknowledge complaint | 24 hours |
+| Notify subject officer | 48 hours after case opens |
+| Subject officer statement | Within 72 hours of being requested |
+| Standard case completed | 7 days |
+| Corruption or use-of-force case completed | 14 days (extensions approved by the Commander of IA) |
+
+### 6.5 Administrative Leave
+
+For serious allegations (Class 1 conducts, PD corruption, or officer-involved shootings under review), the Commander of IA may request that High Command place the officer on administrative leave or restricted duty while the case is open. This is not a punishment and does not count as a strike.
+
+## 7. Findings
+
+Every case must close with exactly one finding per allegation.
+
+| Finding | Meaning | Result |
+|---|---|---|
+| Sustained | The evidence shows the violation happened. | Discipline under the Strikes & Sanction Guide. |
+| Not Sustained | Not enough evidence to prove or disprove the allegation. | No discipline. Case kept on file. |
+| Exonerated | The incident happened, but the officer acted within SOP. | No discipline. |
+| Unfounded | The allegation is false or did not happen. | No discipline. Knowingly false complaints by LSPD members may be investigated. |
+
+The standard of proof is more likely than not, based on the evidence in the case file.
+
+## 8. Discipline
+
+### 8.1 Applying the Strikes & Sanction Guide
+
+1. Identify the Class and Section of each sustained violation (for example, Class 2 Section 11, Conduct Unbecoming of an Officer).
+2. Use the "First Time" penalty, or the "Second Time or More" penalty if the officer has an active strike for the same offense.
+3. Add any listed sanction (Probation, SUP, OAC, WTC, VA, DOC).
+4. Log every strike in the strike2 tab of the LSPD Roster. It posts to #strikes automatically and updates the officer's active strike total.
+
+### 8.2 Strike Thresholds
+
+| Active Strikes | Result |
+|---|---|
+| 2 | 48-hour suspension |
+| 3 or more | Termination or demotion, decided by High Command review. Officers in a division are removed from it (SOP 6.1). |
+| Removal-level offense | Corruption, possession of illegal items, or committing a felony: goes straight to High Command for removal. |
+
+Strikes expire as set on the strike2 tab. Expired strikes stay on the officer's record and in the IA file, and can be considered when reviewing a pattern of behavior.
+
+### 8.3 Who Issues Discipline
+
+- Strikes and minor sanctions: Commander of IA, or the officer's chain of command on IA's recommendation.
+- Suspension: Commander of IA with notice to High Command.
+- Demotion, division removal or termination: High Command vote.
+
+## 9. Closing a Case
+
+1. Lead investigator completes the case file: evidence log, statements, timeline and recommended finding.
+2. Commander of IA reviews and signs off.
+3. Subject officer is told the finding and any discipline, privately.
+4. Complainant is told the case is closed and whether it was sustained. Discipline details stay internal.
+5. Thread status is set to Closed and the thread is archived. Sealed files are never deleted.
+
+## 10. Appeals
+
+- An officer may appeal a sustained finding once, within 72 hours of being notified.
+- Appeals go to High Command, in writing, with the case number and the reason (new evidence, or the process was not followed).
+- Investigators on the original case may not vote on the appeal.
+- High Command may uphold, reduce or overturn the finding. The appeal decision is final.
+
+## 11. Records and Retention
+
+- All case files stay in #ia-sealed-files permanently, including Unfounded and Exonerated cases.
+- Only Internal Affairs Oversight, the Commander of Internal Affairs and server administrators can see sealed files.
+- Case files may be shared with High Command for discipline review or appeals, and with the DOJ only when legally requested, with approval from the Commander of IA.
+
+## 12. Special Investigations
+
+### 12.1 Officer-Involved Shootings
+
+IA may review any officer-involved shooting to confirm the use of force followed SOP 5 (Use of Force), 5.1 (Matching Force) and the lethal force conditions: imminent threat, intent and weapons present. A review is not an accusation, and most reviews will close as Exonerated.
+
+### 12.2 PD Corruption
+
+Corruption cases (Class 1 Section 1) may be investigated without notifying the subject officer until evidence is secured. Examples from the LSPD SOPs include unlogged gun buybacks (SOP 8.2), breaching a house without a signed warrant (SOP 9.2), and evidence mishandling.
+
+### 12.3 Inter-Agency Complaints
+
+Complaints involving FIB or other agencies are documented under SOP 21.3 and sent to LSPD High Command. IA investigates only the LSPD member's conduct.
+
+## 13. Discord Channels
+
+| Channel | Use |
+|---|---|
+| #internal-affairs-sops | These SOPs and division announcements. |
+| #ia-sealed-files | One thread per case using the pinned case file template. Nothing else is posted here. |
+| #strikes | Automatic strike posts from the strike2 tab. |
