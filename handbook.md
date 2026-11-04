@@ -1827,3 +1827,147 @@ Complaints involving FIB or other agencies are documented under SOP 21.3 and sen
 | #internal-affairs-sops | These SOPs and division announcements. |
 | #ia-sealed-files | One thread per case using the pinned case file template. Nothing else is posted here. |
 | #strikes | Automatic strike posts from the strike2 tab. |
+
+
+# 33. S.W.A.T. Division
+
+**Backstreets Police Department – Special Weapons and Tactics**  
+**Standard Operating Procedures**
+
+## Table of Contents
+
+1. Team Structure
+2. Operational Assignments
+3. Activation Protocol
+4. Equipment and Accountability
+5. Restricted Tactical Equipment
+6. Uniform Standards
+7. Scene Coordination
+8. Operations and Use of Force
+9. Training and Qualification
+10. Code of Conduct
+
+## 1. Team Structure
+
+S.W.A.T. is a specialized division made up of selected officers who have demonstrated professionalism, sound judgment, teamwork and the ability to perform under pressure. The unit's structure supports clear supervision and accountability.
+
+- **SWAT Commander (SC):** Leads the division, oversees readiness and training, coordinates with department leadership, and is responsible for division-level decisions.
+- **Team Sergeant (TS):** Reports to the Commander and supervises members during assigned operations.
+- **Team Leader (TL):** Supports operational coordination, mentors members and relays direction from command.
+- **Operator (O):** A qualified member authorized to participate in approved SWAT assignments.
+- **Probationary Operator (PO):** A member completing evaluation and training under the supervision of qualified personnel.
+
+## 2. Operational Assignments
+
+Members may be assigned additional responsibilities according to their qualifications and the needs of an approved operation.
+
+- **Breacher:** A designated specialist for authorized access-related responsibilities. All actions must remain within approved training and department policy.
+- **Marksman:** Provides an observation and reporting role when assigned and authorized by command.
+- **Entry Specialist:** Supports the assigned operational team in accordance with approved training and supervision.
+- **Rear Security:** Helps maintain team accountability and awareness of the surrounding scene.
+- **Technical Support:** Manages approved technical resources and relays relevant information to command.
+- **Negotiator:** Supports communication and de-escalation efforts, seeking a peaceful resolution whenever possible.
+
+These assignments do not grant authority beyond the member's rank, training, or command authorization.
+
+## 3. Activation Protocol
+
+- A minimum of **3 members** is required for a limited SWAT response.
+- A minimum of **4 members** is required for full activation.
+- SWAT may be requested for serious high-risk incidents, including armed hostage situations, barricaded suspects, active-shooter reports, and high-risk warrants.
+- Activation must be approved by a command member of Lieutenant rank or higher, or a Team Sergeant or higher within SWAT.
+- Members are expected to acknowledge activation promptly and maintain readiness in accordance with department requirements.
+- The SWAT Commander, or highest-ranking SWAT member on duty, coordinates the unit's preparation and confirms that the appropriate command structure is in place.
+
+## 4. Equipment and Accountability
+
+SWAT members are responsible for the care, security and accountability of department-issued equipment.
+
+- Members may carry only equipment authorized for their rank, assignment and current qualification.
+- Specialized equipment is issued and tracked by SWAT command.
+- Members must inspect their assigned equipment and report missing, damaged or unserviceable items.
+- SWAT-specific equipment must be secured when the member is not assigned to an authorized SWAT operation.
+- An outfit bag or approved storage method is recommended to keep issued uniform and equipment organized.
+- Unauthorized possession, transfer or use of restricted equipment may result in disciplinary action.
+
+## 5. Restricted Tactical Equipment
+
+Restricted equipment, including flashbangs and smoke grenades, is controlled by SWAT command.
+
+- Only authorized command personnel may issue restricted tactical equipment.
+- Eligibility is limited to members whose rank, specialty and current authorization permit possession.
+- Possession and use must be tied to an approved SWAT assignment and follow department policy.
+- Members must not retain restricted equipment while off duty or while performing ordinary patrol duties.
+- Unauthorized possession or use may result in a strike and removal from the division.
+- Command is responsible for maintaining appropriate issuance and accountability records.
+
+## 6. Uniform Standards
+
+SWAT personnel must follow the uniform standards established by the division. Uniforms must be serviceable, professional and consistent with approved team requirements.
+
+- Current SWAT uniform options are maintained in the **Backstreets | S.W.A.T. Discord**.
+- Members must wear the approved uniform when participating in an official SWAT assignment.
+- Uniform exceptions require approval from SWAT command.
+
+## 7. Scene Coordination
+
+SWAT operations must be coordinated with the incident commander and other responding divisions.
+
+- The incident commander must be kept informed of SWAT's status and assigned responsibilities.
+- A clear command structure and communication plan must be maintained.
+- Communications must remain professional, concise and consistent with department radio policy.
+- Coordination with Air Support, patrol and other assisting units is handled through the designated SWAT supervisor or team leader.
+- Patrol and support units remain responsible for their assigned duties unless command formally reallocates them.
+
+## 8. Operations and Use of Force
+
+All SWAT activity must comply with department-wide SOPs, applicable city rules and the established chain of command.
+
+- Members may act only within their training, authorization and assigned responsibilities.
+- Any use of force must be lawful, necessary, reasonable and proportionate to the circumstances.
+- De-escalation and protection of civilians remain priorities whenever reasonably possible.
+- Hostage and civilian safety must be considered throughout an incident.
+- Members must follow the incident commander's directions and report significant events through the chain of command.
+- Detailed tactical methods are governed by approved in-server training and direct command supervision, not this public handbook.
+
+## 9. Training and Qualification
+
+SWAT members are expected to maintain their qualifications and participate in division training.
+
+- Scenario-based training should be conducted regularly and documented by division leadership.
+- Members must attend required evaluations and qualification sessions.
+- Requalification is conducted at least once every three months, unless command sets a different schedule.
+- Members who do not meet division standards may be placed on probation, restricted from operational assignments or removed from the division.
+- Training must emphasize communication, judgment, teamwork, legal compliance and safe roleplay.
+
+## 10. Code of Conduct
+
+SWAT members are held to a high standard of conduct, both on and off duty.
+
+### Professionalism
+
+Members must remain calm, respectful and professional toward civilians, suspects and fellow officers.
+
+### Integrity
+
+Falsifying reports, concealing misconduct or misrepresenting an operation is prohibited and may result in disciplinary review.
+
+### Chain of Command
+
+Members must respect lawful instructions and raise disagreements through the proper channels.
+
+### Use of Force
+
+Members must exercise restraint and comply with department use-of-force policy. Membership in SWAT does not provide an exemption from standard accountability.
+
+### Confidentiality
+
+Operational information must be shared only through authorized department channels. Unauthorized disclosure may result in disciplinary action.
+
+### Team Cohesion
+
+Members must treat one another with respect. Harassment, hazing, intimidation and deliberate exclusion are prohibited.
+
+### Lead by Example
+
+SWAT members are expected to demonstrate sound judgment, accountability and professionalism during operations and training.
