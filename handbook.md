@@ -86,8 +86,9 @@ Additional requirements:
 | ------------------ | --------------- | ------------- |
 | White/Pink Taser   | Cadet+          | —             |
 | PD 57              | Cadet+          | —             |
+| Switches           | Officer+        | —             |
 | PD SMG             | Senior Officer+ | Class 2       |
-| PD Glock           | Sergeant+       | Class 2       |
+| PD Glock           | Cadet+          | Class 1       |
 | PD M4              | Sergeant+       | Class 3       |
 | Non-Lethal Shotgun | Lieutenant+     | Class 3       |
 | MP7F               | QRT/SWAT        | Class 2       |
