@@ -46,7 +46,7 @@ The goal is to have everything in one place so officers can review the current p
 | Rank                 | Callsign    | Permissions                                              |
 | -------------------- | ----------- | -------------------------------------------------------- |
 | Commissioner         | W-XXX (001) | Oversees the department                                  |
-| High Command         | L-001–L-009 | Department oversight and legal matters                   |
+| High Command         | L-001–L-014 | 14 positions; department oversight and legal matters     |
 | Command              | L-101–L-299 | Lieutenants/Captains; fully unmarked vehicles            |
 | Supervisor           | L-301–L-599 | Corporals/Sergeants; slicktop vehicles                   |
 | Senior Officer       | L-601–L-699 | Eligible for FTO and Class 2                             |
