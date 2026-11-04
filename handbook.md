@@ -90,10 +90,10 @@ Additional requirements:
 | PD SMG             | Senior Officer+ | Class 2       |
 | PD Glock           | Cadet+          | Class 1       |
 | PD M4              | Sergeant+       | Class 3       |
-| Non-Lethal Shotgun | Lieutenant+     | Class 3       |
+| Non-Lethal Shotgun | Lieutenant+     | Class 4       |
 | MP7F               | QRT/SWAT        | Class 2       |
 | SWAT LBRS          | QRT/SWAT        | Class 3       |
-| Lethal Shotgun     | QRT/SWAT        | Class 3       |
+| Lethal Shotgun     | QRT/SWAT        | Class 4       |
 | PD Sniper          | QRT/SWAT        | Class 4       |
 
 Ammunition limits:
